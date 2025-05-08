@@ -10,11 +10,13 @@
 
 This repo serves as an example of how to use Dependabot CLI for updates. It is intended as a starting point for advanced users to run a self-hosted version of Dependabot within their own projects.
 
-If you're looking for a hassle-free Dependabot experience, check out the hosted [Dependabot Service](https://docs.github.com/en/github/administering-a-repository/about-dependabot-version-updates).
+For a hassle-free Dependabot experience, check out the hosted [Dependabot Service](https://docs.github.com/en/github/administering-a-repository/about-dependabot-version-updates).
 
 This repo uses an Action which downloads and runs Dependabot CLI. To run the Action you would go to [the Action in the Actions tab](https://github.com/dependabot/example-cli-usage/actions/workflows/example.yml), and run it.
 
 To see what the results look like, go check out the Pull Requests.
+
+While this example repo runs on GitHub Actions, none of the Dependabot bits are specific to GitHub, so it should be straightforward to port it to any other CI system.
 
 ## Implementation details
 
